@@ -1,0 +1,58 @@
+@page
+@model WareHouse_and_Inventory.Pages.Inventory.IndexModel
+@{
+}
+<br>
+<h2> List of Inventories</h2>
+<a class=" btn btn-primary btn-sm" href="/Warehouses/Create"> New Inventory</a>
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th> Warehouse ID</th>
+            <th>Iventory Name</th>
+            
+
+
+
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td>101101</td>
+            <td>BrioAd</td>
+            <td>
+                <a class=" btn btn-primary btn-sm" href="/Warehouses/Edit ?id= id "> Edit </a>
+                <a class=" btn btn-danger btn-sm" href="/Warehouses/Delete ?id= id "> Delete </a>
+                <a class=" btn btn-dark btn-sm" href="/Warehouses/Insert ?id= id "> Insert </a>
+            </td>
+
+
+
+
+        <tr>
+            <td>02</td>
+            <td>012001</td>
+            <td>CombiAd</td>
+
+
+            <td>
+                <a class=" btn btn-primary btn-sm" href="/Warehouses/Edit ?id= id "> Edit </a>
+                <a class=" btn btn-danger btn-sm" href="/Warehouses/Delete ?id= id "> Delete </a>
+                <a class=" btn btn-dark btn-sm" href="/Warehouses/Insert ?id= id "> Insert </a>
+
+
+
+
+            </td>
+        </tr>
+
+
+
+
+
+    </tbody>
+</table>
